@@ -1,1 +1,2 @@
 # Qrcodegenerator
+This Python script generates QR codes for UPI payments using a user-provided UPI ID. It creates separate payment URLs for PhonePe, Paytm, and Google Pay, then uses the `qrcode` library to generate and save QR codes for each. The codes are saved as PNG images and displayed using the default image viewer (requires the Pillow library). This can be used to quickly set up UPI payment options for different apps.
